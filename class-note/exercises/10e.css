@@ -1,0 +1,65 @@
+.card{
+  margin-left: 15px;
+  margin-top: 20px;
+  width: 200px;
+  height: 320px;
+  box-shadow: 0 0 3px rgb(0,0,0,0.4);
+}
+p{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.head{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+.name{
+  padding-left: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.friends{
+  vertical-align: middle;
+  font-size: 14px;
+  color: gray;
+}
+.add{
+  margin-top: 10px;
+  margin-left: 8px;
+  background-color: rgb(72, 88, 232);
+  color: white;
+  border: none;
+  font-size: 18px;
+  border-radius: 4px;
+  width: 130px;
+  height: 40px;
+  transition: all 0.15s;
+}
+.add:hover{
+  cursor: pointer;
+  background-color: rgb(181, 194, 241);
+}
+.profile{
+  width: 200px;
+  height: 26px;
+  border-radius: 13px;
+  margin-left: 8px;
+}
+.profile-photo{
+  vertical-align: middle;
+  width: 26px;
+  height: 26px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 13px;
+}
+.info{
+  width: 200px;
+  height: 120px;
+}
+.mutual{
+  margin-left: 4px;
+  width: 120px;
+}

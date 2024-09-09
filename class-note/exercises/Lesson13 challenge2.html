@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FlexBox Challenge</title>
+    <style>
+      p{
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+      .whole{
+        display: flex;
+        align-items:top;
+      }
+      .head{
+        width: 72px;
+      }
+      .photo{
+        width: 60px;
+        border-radius: 30px;
+      }
+      .right-section{
+        width:400px;
+      }
+      .title{
+        display: flex;
+      }
+      .name{
+        width:128px;
+        font-weight: 1000;
+      }
+      .link{
+        margin-top: 10px;
+        border-color: rgb(215, 215, 215);
+        border-style: solid;
+        border-radius: 20px;
+        height: 100px;
+        display: flex;
+      }
+      .left{
+        width: 140px;
+        background-color: rgb(215, 215, 215);
+        border:none;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        height: 102px;
+        margin-top: -1px;
+        margin-left: -1px;
+      }
+      .youtube{
+        margin-left: 20px;
+        margin-top: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="whole">
+      <div class="head">
+        <img class="photo" src="jungkook.jpg">
+      </div>
+      <div class="right-section">
+        <div class="title">
+          <div class="name">
+            <p>supersimple.dev</p>
+          </div>
+          <div class="email">
+            <p>@SuperSimpleDev</p>
+          </div>
+        </div>
+        <div class="comment">
+          <p>
+            What is backend web development? A complete overview. New video is up!
+          </p>
+        </div>
+        <div class="link">
+          <div class="left"></div>
+          <div ckass="right">
+            <div class="youtube">
+              <p>youtube.com</p>
+              <p style="font-weight: 500;">Backend web development - a complete overview (2021)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

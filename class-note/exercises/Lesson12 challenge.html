@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>lesson12 challenge</title>
+    <style>
+      p{
+        margin: 0;
+      }
+      img{
+        width: 60px;
+        height: 60px;
+        object-fit: cover;
+        object-position: center;
+        border: none;
+        border-radius: 30px;
+      }
+      .head{
+        width: 70px;
+      }
+      .g{
+        box-shadow: 0 0 3px rgb(0,0,0,0.4);
+        margin-top: 30px;
+        margin-left: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+      .profile{
+        display: flex;
+        flex-direction: row;
+        height: 90px;
+        align-items: center;
+      }
+      .info{
+        flex:1;
+        display: flex;
+        flex-direction: column;
+        height: 70px;
+        justify-content: space-between;
+      }
+      .button-g{
+        width: 80px;
+        height: 40px;
+        font-size: 18px;
+        background-color: rgb(84, 139, 227);
+        color: white;
+        font-weight: bold;
+        border: none;
+        border-radius: 6px;
+      }
+      .name{
+        font-size: 16px;
+        font-weight: bold;
+      }
+      .des{
+        font-size: 14px;
+        color: gray;
+      }
+      .e{
+        margin-left: 10px;
+        width: 360px;
+        height: 120px;
+        border-radius: 10px;
+        border: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        box-shadow: 0 0 3px rgb(0,0,0,0.4);
+      }
+      .message{
+        height: 30px;
+        display: flex;
+        align-items: center;
+        width: 330px;
+        justify-content: space-between;
+      }
+      .button1{
+        background-color: rgb(35, 104, 213);
+        color: white;
+        border: none;
+        height: 24px;
+        width: 36px;
+        border-radius: 12px;
+        font-size: 14px;
+      }
+      .button2{
+        background-color: rgb(35, 104, 213);
+        color: white;
+        border: none;
+        height: 24px;
+        width: 30px;
+        border-radius: 12px;
+        font-size: 14px;
+      }
+      .button3{
+        background-color: rgb(35, 104, 213);
+        color: white;
+        border: none;
+        height: 24px;
+        width: 30px;
+        border-radius: 12px;
+        font-size: 14px;
+      }
+      .f{
+        justify-content: space-between;
+        margin-top: 10px;
+        align-items: center;
+        display: flex;
+        background-color: rgb(114, 66, 160);
+        height: 50px;
+      }
+      .home{
+        color: white;
+        font-weight: bold;
+        margin-left: 20px;
+        width: 120px;
+      }
+      input{
+        flex:1;
+        height: 30px;
+        border: none;
+        border-radius: 15px;
+        padding-left: 14px;
+        width: 400px;
+      }
+      .download{
+        background-color: rgb(114, 66, 160);
+        border-color: white;
+        border-style: solid;
+        height: 30px;
+        color: white;
+        border-width: 1px;
+        margin-left: 40px;
+        margin-right: 10px;
+        transition: 0.15s;
+      }
+      .download:hover{
+        cursor: pointer;
+        background-color: white;
+        color: rgb(114, 66, 160);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="e">
+      <div class="message">
+        <div>
+          <p>Home</p>
+        </div>
+        <div>
+          <button class="button1">14</button>
+        </div>
+      </div>
+      <div class="message">
+        <div>
+          <p>Notifications</p>
+        </div>
+        <div>
+          <button class="button2">3</button>
+        </div>
+      </div>
+      <div class="message">
+        <div>
+          <p>Messages</p>
+        </div>
+        <div>
+          <button class="button3">5</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="g">
+      <div class="profile">
+        <div class="head"><img src="head.jpg"></div>
+        <div class="info">
+          <div><p class="name">oliver</p></div>
+          <div><p class="des">the cat</p></div>
+          <div><p class="des">Popular</p></div>
+        </div>
+        <button class="button-g">Follow</button>
+      </div>
+      <div class="profile">
+        <div class="head"><img src="jungkook.jpg"></div>
+        <div class="info">
+          <div><p class="name">Mimi</p></div>
+          <div><p class="des">Sleepy cat</p></div>
+          <div><p class="des">Popular</p></div>
+        </div>
+        <button class="button-g">Follow</button>
+      </div>
+      <div class="profile">
+        <div class="head"><img src="logo.jpg"></div>
+        <div class="info">
+          <div><p class="name">Rex</p></div>
+          <div><p class="des">Happy Bulldog</p></div>
+          <div><p class="des">Popular</p></div>
+        </div>
+        <button class="button-g">Follow</button>
+      </div>
+    </div>
+
+    <div class="f">
+      <p class="home">Home</p>
+      <input type="text" placeholder="Search">
+      <button class="download">Download</button>
+    </div>
+      
+  </body>
+</html>
